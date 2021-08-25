@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>07-sum-number.html</title>
+   
+    <script>
+        function sumplus(){
+         document.getElementById('ans').innerHTML =
+         parseInt(document.getElementById('num1').value) +
+         parseInt(document.getElementById('num2').value)
+        }
+
+    </script>
+
+    <title>07-sumnumber.html</title>
 </head>
 <body>
     <input type="text" name="" id="num1"> +
     <input type="text" name="" id="num2">
-    <br>
-    <br>
-    <input type="button" value="Submit">
-    <br>
-    <br>
+    <br><br>
+    <input type="button" value="Submit" onclick="sumplus()">
+    <br><br>
     <p id="ans"></p>
+
 </body>
 </html>
