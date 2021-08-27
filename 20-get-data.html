@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
         function display_value() {
-            const urlparans = new URLSearchParams(window.location.search)
-            document.getElementById('sid').innerHTML = urlparans.get('sid')
-            document.getElementById('sname').innerHTML = urlparans.get('sname')
-            document.getElementById('phone').innerHTML = urlparans.get('phone')
+            const urlParams = new URLSearchParams(window.location.search)
+            document.getElementById('sid').innerHTML = urlParams.get('sid') 
+            document.getElementById('sname').innerHTML = urlParams.get('sname')
+            document.getElementById('phone').innerHTML = urlParams.get('phone')
         }
     </script>
     <title>20-get-data.html</title>
